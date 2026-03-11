@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Animated app',
       home: Home(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
